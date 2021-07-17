@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stepik_Messenger
 {
+    [Serializable]
     public class Message
     {
         public string UserName { get; set; }
