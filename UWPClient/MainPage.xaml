@@ -9,9 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Отправить" Margin="677,455,0,0" VerticalAlignment="Top" Height="77" Width="104" RenderTransformOrigin="-0.213,0.403"/>
+        <Button Content="Отправить" Margin="677,455,0,0" VerticalAlignment="Top" Height="77" Width="104" RenderTransformOrigin="-0.213,0.403" Click="Button_Click_1"/>
         <ListBox x:Name="MessagesLB" Margin="44,47,719,565" SelectionChanged="MessagesLB_SelectionChanged"/>
-        <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Margin="44,455,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.721,1.156" Width="307"/>
+        <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Margin="44,455,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.721,1.156" Width="307" TextChanged="UserNameTB_TextChanged"/>
         <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Margin="44,500,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="597" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
